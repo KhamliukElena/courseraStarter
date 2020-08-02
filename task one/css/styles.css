@@ -4,24 +4,23 @@
     padding: 0;
 }
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 175%;
     text-align: center;
 }
 .row {
     width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 @media (min-width: 992px) {
     .col-lg-3 {
         float: left;
         width: 33.33%;
-        border: 1px solid black;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-2, .col-md-1 {
-        border: 1px solid black;
-    }
     .col-md-2 {
         float: left;
         width: 50%;
@@ -33,15 +32,16 @@ h1 {
 @media (max-width: 767px) {
     .col-sm-1 {
         width: 100%;
-        border: 1px solid black;
     }
 }
-section {
+.section {
     position: relative;
     padding: 30px 8px 5px;
     background-color: lightcyan;
     height: 160px;
     overflow: auto;
+    margin: 0 5px 10px;
+    border: 1px solid black;
 }
 p {
     font-size: 125%;
