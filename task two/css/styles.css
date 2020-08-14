@@ -1,14 +1,57 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+hr {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 2em;
+}
+li {
+    text-align: center;
+}
+.section {
+    border: 1px solid black;
+    padding-left: 7px;
+    padding-top: 25px;
+    margin: 0 5px 10px;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+}
+p {
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 /* header */
+.navbar-brand {
+    margin-left: 30px;
+}
+.navbar-toggler {
+    margin: 7px 30px;
+}
 .navbar.navbar-light {
     background-color: aquamarine;
     border: 0;
     border-radius: 0;
+    padding: 0;
+}
+#menuItems {
+    width: 100%;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+p#chicken {
+    background-color: lightgreen;
+}
+p#beef {
+    background-color: lightsteelblue;
+}
+p#sushi {
+    background-color: lightpink;
 }
